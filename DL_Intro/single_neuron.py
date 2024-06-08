@@ -9,7 +9,7 @@ from tensorflow.keras import layers
 
 import pandas as pd 
 
-df = pd.read_csv(r'C:\Users\adith\OneDrive\chamber_of_secrets\Python\CSV files\red-wine.csv')
+df = pd.read_csv(r'CSV files\red-wine.csv')
 
 # Get rows and columns
 size = df.shape
